@@ -1,0 +1,12 @@
+.hero__button  {
+  margin-top: 40px;
+  padding: 38px 64px;
+  background-color: #3A4574;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}

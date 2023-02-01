@@ -5,3 +5,10 @@
 @import url(./blocks/header/__phone/header__phone.css);
 
 @import url(./blocks/hero/hero.css);
+@import url(./blocks/hero/__container/hero__container.css);
+@import url(./blocks/hero/__title/hero__title.css);
+@import url(./blocks/hero/__subtitle/hero__subtitle.css);
+@import url(./blocks/hero/__buttons/hero__buttons.css);
+@import url(./blocks/hero/__button/hero__button.css);
+@import url(./blocks/hero/__social-icons/hero__social-icons.css);
+@import url(./blocks/hero/__icon/hero__icon.css);
