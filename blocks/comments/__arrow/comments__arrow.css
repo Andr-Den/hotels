@@ -1,0 +1,4 @@
+.comments__arrow:hover {
+  cursor: pointer;
+  opacity: .5;
+}

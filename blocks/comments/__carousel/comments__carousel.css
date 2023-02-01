@@ -1,0 +1,6 @@
+.comments__carousel {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+}
