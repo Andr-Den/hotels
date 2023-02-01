@@ -8,3 +8,8 @@
   line-height: 24px;
   color: #FFFFFF;
 }
+
+.hero__button:hover {
+  cursor: pointer;
+  background-color: #30418d;
+}

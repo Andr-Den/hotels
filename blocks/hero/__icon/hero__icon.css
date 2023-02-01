@@ -14,3 +14,7 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.hero__icon:hover {
+  opacity: .5;
+}
