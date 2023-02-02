@@ -9,3 +9,11 @@
   padding: 60px 30px;
   border-radius: 16px;
 }
+
+
+@media screen and (max-width: 500px){
+  .form__fieldset {
+    width: 270px;
+    padding: 70px 15px 30px 15px;
+  }
+}

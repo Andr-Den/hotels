@@ -12,3 +12,11 @@
 .form__close-icon:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px){
+  .form__close-icon {
+    background-image: url(../../../images/CloseIconBlack.svg);
+    top: 20px;
+    right: 20px;
+  }
+}
