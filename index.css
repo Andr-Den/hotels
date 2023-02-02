@@ -35,6 +35,8 @@
 @import url(./blocks/comments/__name/comments__name.css);
 @import url(./blocks/comments/__arrow/comments__arrow.css);
 @import url(./blocks/comments/__arrow/_right/comments__arrow_right.css);
+@import url(./blocks/comments/__arrows/comments__arrows.css);
+@import url(./blocks/comments/__arrow/_small/comments__arrow_small.css);
 
 @import url(./blocks/form/form.css);
 @import url(./blocks/form/__container/form__container.css);

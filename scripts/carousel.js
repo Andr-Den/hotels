@@ -21,6 +21,8 @@ commentName.innerHTML = `${comments[0].name}`
 
 let next = document.getElementById("next-button");
 let back = document.getElementById("back-button");
+let nextSmall = document.getElementById("next-button-small");
+let backSmall = document.getElementById("back-button-small");
 
 let value = 0
 
@@ -37,6 +39,28 @@ next.onclick = function() {
 }
 
 back.onclick = function() {
+  if (value === 0) {
+    value = 1
+  } else {
+    value--
+  }
+  commentTitle.innerHTML = `${comments[value].title}`
+  commentDescription.innerHTML = `${comments[value].description}`
+  commentName.innerHTML = `${comments[value].name}`
+}
+
+nextSmall.onclick = function() {
+  if (value === 1) {
+    value = 0
+  } else {
+    value++
+  }
+  commentTitle.innerHTML = `${comments[value].title}`
+  commentDescription.innerHTML = `${comments[value].description}`
+  commentName.innerHTML = `${comments[value].name}`
+}
+
+backSmall.onclick = function() {
   if (value === 0) {
     value = 1
   } else {

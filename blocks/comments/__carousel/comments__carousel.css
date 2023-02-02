@@ -4,3 +4,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1154px){
+  .comments__carousel {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .comments__carousel {
+    flex-direction: column;
+  }
+}
