@@ -17,3 +17,22 @@
   grid-row-start: 1;
   grid-row-end: 1;
 }
+
+@media screen and (max-width: 1200px){
+  .schedule__image_top {
+    grid-column-start: -1;
+    grid-column-end: -4;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .schedule__image_bottom {
+    display: none;
+
+  }
+
+  .schedule__image_top {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+}

@@ -8,3 +8,9 @@
   line-height: 32px;
   color: #000000;
 }
+
+@media screen and (max-width: 476px){
+  .schedule__food {
+    flex-direction: column;
+  }
+}

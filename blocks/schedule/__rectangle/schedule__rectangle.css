@@ -8,3 +8,16 @@
   margin-top: 51px;
   height: 502px;
 }
+
+@media screen and (max-width: 1200px){
+  .schedule__rectangle {
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .schedule__rectangle {
+    display: none;
+  }
+}
