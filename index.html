@@ -20,11 +20,26 @@
           <img src="./images/phone.svg">
           <p>+32 9 282 57 25</p>
         </div>
-        <img src="./images/burger.svg" class="header__burger">
+        <img src="./images/burger.svg" class="header__burger" id="open-menu">
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu__container">
+          <button class="menu__close-icon" id="close-menu"></button>
+          <nav class="menu__list">
+            <a class="menu__links" href="#">À la carte</a>
+            <a class="menu__links" href="#">Wijnkaart</a>
+            <a class="menu__links" href="#">Lunchmenu</a>
+            <a class="menu__links" href="#">Contact</a>
+            <div class="menu__phone">
+              <img src="./images/phone.svg">
+              <p>+32 9 282 57 25</p>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="hero__container">
           <span class="hero__subtitle">OPEN EVERYDAY 6AM - 9PM</span>
           <h1 class="hero__title">A bad day with lunch is better than a good day without it.</h1>
@@ -39,7 +54,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <!-- <section>
         <div class="schedule__container">
           <ul class="schedule__list">
             <li class="schedule__point">
@@ -120,6 +135,7 @@
       </form>
     </main>
     <script src="./scripts/form.js"></script>
+    <script src="./scripts/menu.js"></script>
     <script src="./scripts/carousel.js"></script>
   </body>
 </html>

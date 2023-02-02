@@ -1,0 +1,10 @@
+.menu__container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 40px;
+}
