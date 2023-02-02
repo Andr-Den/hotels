@@ -3,3 +3,9 @@
   gap: 11px;
   align-items: center;
 }
+
+@media screen and (max-width: 965px){
+  .header__phone {
+    display: none;
+  }
+}

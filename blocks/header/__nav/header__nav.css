@@ -3,3 +3,9 @@
   gap: 45px;
   align-items: center;
 }
+
+@media screen and (max-width: 965px){
+  .header__nav {
+    display: none;
+  }
+}
