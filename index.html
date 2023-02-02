@@ -28,7 +28,7 @@
           <span class="hero__subtitle">OPEN EVERYDAY 6AM - 9PM</span>
           <h1 class="hero__title">A bad day with lunch is better than a good day without it.</h1>
           <div class="hero__buttons">
-            <button class="hero__button">Reserve a table</button>
+            <button class="hero__button" id="open-form">Reserve a table</button>
             <div class="hero__social-icons">
               <a class="hero__icon" href="">Fb</a>
               <a class="hero__icon" href="">Ig</a>
@@ -103,7 +103,18 @@
           </div>
         </div>
       </section>
+      <form class="form" id="form">
+        <div class="form__container">
+          <div class="form__close-icon" id="close-form"></div>
+          <fieldset class="form__fieldset">
+            <input class="form__input" placeholder="Name">
+            <input class="form__input" placeholder="Phone">
+            <button class="form__button">Reserve a table</button>
+          </fieldset>
+        </div>
+      </form>
     </main>
+    <script src="./scripts/form.js"></script>
     <script src="./scripts/carousel.js"></script>
   </body>
 </html>
