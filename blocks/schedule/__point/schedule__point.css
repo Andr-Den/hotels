@@ -1,0 +1,9 @@
+.schedule__point {
+  list-style: none;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(231, 231, 231, 1);
+}
+
+.schedule__point:first-of-type {
+  padding: 0 0 20px 0;
+}

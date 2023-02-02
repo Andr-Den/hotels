@@ -16,6 +16,15 @@
 @import url(./blocks/hero/__social-icons/hero__social-icons.css);
 @import url(./blocks/hero/__icon/hero__icon.css);
 
+@import url(./blocks/schedule/__container/schedule__container.css);
+@import url(./blocks/schedule/__list/schedule__list.css);
+@import url(./blocks/schedule/__point/schedule__point.css);
+@import url(./blocks/schedule/__title/schedule__title.css);
+@import url(./blocks/schedule/__food/schedule__food.css);
+@import url(./blocks/schedule/__images/schedule__images.css);
+@import url(./blocks/schedule/__image/schedule__image.css);
+@import url(./blocks/schedule/__rectangle/schedule__rectangle.css);
+
 @import url(./blocks/comments/comments.css);
 @import url(./blocks/comments/__container/comments__container.css);
 @import url(./blocks/comments/__carousel/comments__carousel.css);

@@ -1,0 +1,5 @@
+.schedule__list {
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}

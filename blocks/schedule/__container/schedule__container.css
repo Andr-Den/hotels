@@ -1,0 +1,8 @@
+.schedule__container {
+  max-width: 1168px;
+  margin: 0 auto 0;
+  padding: 80px 0 90px 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}

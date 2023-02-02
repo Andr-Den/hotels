@@ -1,0 +1,19 @@
+.schedule__image {
+  width: 323px;
+  z-index: 2;
+}
+
+.schedule__image_bottom {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-top: 152px;
+}
+
+.schedule__image_top {
+  grid-column-start: -1;
+  grid-column-end: -5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
