@@ -6,3 +6,15 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 900px){
+  .hero__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .hero__subtitle {
+    font-size: 14px;
+  }
+}

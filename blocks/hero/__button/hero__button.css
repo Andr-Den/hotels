@@ -13,3 +13,9 @@
   cursor: pointer;
   background-color: #30418d;
 }
+
+@media screen and (max-width: 900px){
+  .hero__button {
+    padding: 19px 32px;
+  }
+}
